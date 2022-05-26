@@ -1,0 +1,86 @@
+body{
+    padding: 0;
+    margin: 0;    
+    width:100vw;
+    height: 100vh; 
+    background-color: black;
+    font: white;
+}
+.panel{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.question-container{
+    margin: 10px;
+    padding: 5px;
+    width: 80vw;
+    height: 10vh;
+    background-color: green;
+    font-size: x-large;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+
+      
+}
+.result{
+    margin: 10px;
+    padding: 5px;
+    width:80vw;
+    height: 10vh;
+    text-align: center;
+    font-size: 50px;
+      
+}
+.option-container{
+    display: flex;
+    justify-content: space-around; 
+    margin: 10px;
+    padding: 5px;
+    width: 80vw;
+    height: 20vh;
+    background-color: black;   
+        
+}
+.option{    
+    padding: 10px;
+    width: 15vw;
+    height: 10vh;
+    font-size: larger;
+    background-color: lightskyblue;
+}
+.option:hover{
+    background-color: blue;
+}
+.navigation{
+    width: 80vw;
+    height: 10vh;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    background-color:black;
+}
+  
+.evaluate,.next{
+    width:30vw;
+    height: 8vh;
+    padding: 5px;
+    font-size: larger;
+}
+.evaluate{
+        color: white;
+    background-color: black;
+}
+.evaluate:hover{
+    background-color: green;
+}
+.next{
+    color: white;
+    background-color: black;
+}
+.next:hover{
+    background-color: red;
+}
